@@ -168,6 +168,7 @@ You can:
 * specify ssl parameters
 * override cookies
 * manually handle the response (e.g. to operate on it as a stream rather than reading it all into memory)
+* bypass or use another proxy than the one configured globally (see the Proxy section below for more information)
 
 See RestClient::Request's documentation for more information.
 
